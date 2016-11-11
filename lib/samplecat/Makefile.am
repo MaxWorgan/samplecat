@@ -6,6 +6,7 @@ AM_CFLAGS = \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	-DIMAGES_DIR=\"$(imagesdir)\" \
 	-I../ \
+	-I../waveform \
 	-DG_LOG_DOMAIN=\"Samplecat\" \
 	-I$(top_srcdir)/lib \
 	$(GTK_CFLAGS)
